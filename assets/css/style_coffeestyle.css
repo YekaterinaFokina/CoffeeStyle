@@ -1,0 +1,491 @@
+@font-face {
+    font-family: Karla;
+    src: url(../fonts/Karla-Regular\(30\).ttf);
+}
+@font-face {
+    font-family: Karla Mid;
+    src: url(../fonts/Karla-Medium.ttf);
+}
+@font-face {
+    font-family: Karla_Bold;
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Хедер*/ 
+
+.contener_header{
+    display: flex;
+    max-width: 70%;
+    margin: 15px auto;
+    justify-content: space-between;
+    align-items:center;
+}
+.header_menu ul{
+    display: flex;
+    margin-left: 15px;
+    list-style: none;
+}
+.header_menu li a{
+    list-style: none;
+    padding: 15px;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none; 
+}
+.header_menu li a{
+    color:black;
+}
+.header_menu  li a:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+}
+.cart a{
+    text-decoration: none;
+    color: #1D1F2E;
+    font-family: "Karla";
+}
+.cart div{
+    margin-left: 17px;
+}
+.cart li{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 2px;
+}
+.cart li a{
+    color:black;
+}
+.cart  li a:hover{
+    color:grey;
+    cursor: pointer;
+}
+
+/*Секция 1*/
+
+.section_1{
+    max-width: 95%;
+    margin: 15px auto;
+    background-color: #050827;
+    height: 530px;
+}
+.container1{
+    max-width: 97%;
+    background-color: #050827;
+    margin: 0 auto;
+    height: 530px;
+}
+.cont1_img{
+    width: 940px;
+    height: 530px;
+    background-image: url("../img/section_1/banner.png");
+    margin: auto;
+    text-align: center;
+}
+.cont1_text1{
+    font-size: 12px;
+    font-family: "Karla";
+    color: white;
+    margin-bottom: 25px;
+    padding-top: 150px;
+}
+.cont1_text2{
+    font-size: 47px;
+    font-family: "Karla";
+    color: white;
+    margin-bottom: 15px;
+}
+.cont1_text3{
+    font-size: 17px;
+    font-family: "Karla";
+    color: white;
+    margin-bottom: 50px;
+}
+.cont1_texts{
+    text-align: center;
+}
+.cont1_img button{
+    width: 231px;
+    height: 33px;
+    border-style: none;
+    background-color: white;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Karla";
+    color: #1D1F2E;
+}
+
+.cont1_img button:hover{
+    background-color: gainsboro;
+    color: #000000;
+}
+
+.sec_2_text_3 a{
+    color:#A25F4B;
+}
+.sec_2_text_3 a:hover{
+    color:rgb(110, 5, 37);
+}
+.section_2{
+    max-width: 70%;
+    margin: 15px auto;
+    margin-top: 100px;
+}
+.contener_sec_2{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.sec_2_text_1{
+    font-family: Karla;
+    font-style:inherit;
+    line-height: 35px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sec_2_text_2{
+    font-family: Karla;
+    font-style:inherit;
+    font-size: 15px;
+    color: #1D1F2EB2;;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.sec_2_text_3{
+    font-family: Karla;
+    font-style:inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+.img_1_sec_2{
+    margin-top: -5px;
+}
+.link_sec_2{
+  justify-content: center;
+  display: flex;
+  margin-top: 120px;
+}
+.iink_img_2_sec_2{
+    margin: 10px;
+    display: flex;
+}
+
+.link_img_2_sec_2{
+    margin-top: 150px;
+}
+.sec_2_text_link a{
+    color:black;
+    font-family: Karla Mid;
+    font-size: 13px;
+}
+.sec_2_text_link a:hover{
+    color:gray;
+   cursor: pointer;
+}
+
+/*Секция 3*/
+.section_3{
+    margin-top: 130px;
+}
+.container2{
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.cont2_texts{
+    text-align: center;
+    padding: 20px;
+}
+.cont2_texts div{
+    margin-top: 15px;
+}
+.cont2_text1{
+    font-size: 28px;
+    font-family: "Karla";
+}
+.cont2_text2{
+    font-size: 16px;
+    font-family: "Karla";
+}
+.cont2_text3{
+    color: #A25F4B;
+    font-size: 15px;
+    font-family: "Karla";
+}
+.cont2_lines{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.cont2_lines img{
+    margin: 10px;
+}
+
+.cont2_lines a{
+    color:black;
+    font-family: Karla Mid;
+    font-size: 13px;
+}
+.cont2_lines a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+
+.cont2_imgs1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cont2_img1{
+    background-color: white;
+    width: 480px;
+    height: 653px;
+}
+.name1{
+    font-size: 20px;
+    font-family: "Karla";
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.cost1{
+    font-size: 16px;
+    font-family: "Karla";
+    color: gray;
+    padding-top: 3px;
+}
+.inf1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.cost2{
+    font-size: 19px;
+    font-family: "Karla";
+    color: #A25F4B;
+    margin-right: 13px;
+}
+.cont2_img2{
+    width: 316.8px;
+    height: 497px;
+    background-color: white;
+    margin-top: 50px;
+}
+.cont2_imgs2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 940px;
+    margin: auto;
+    padding-top: 50px;
+}
+.cont2_{
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.img3{
+    margin-top: 16px;
+}
+.cont2_texts2{
+    width: 460px;
+    height: 273px;
+    background-color: white;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.texts2_1{
+    font-size: 12px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-bottom: 15px;
+}
+.texts2_2{
+    font-size: 36px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-bottom: 15px;
+}
+.texts2_3{
+    font-size: 16px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-bottom: 40px;
+}
+.cont2_texts2 button{
+    background-color: #1D1F2E;
+    width: 173px;
+    height: 35px;
+    color: white;
+    font-family: "Karla";
+}
+.cont2_imgs4{
+    margin-left: 19px;
+
+}
+
+/*Cont3*/
+.container3{
+    max-width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/*Cont4*/
+.container4{
+    width: 960px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+.cont4_imgs1{
+    background-color: white;
+    width: 300px;
+    height: 553px;
+}
+.count4_text1{
+    font-size: 20px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-top: 30px;
+}
+.count4_text2{
+    font-size: 16px;
+    font-family: "Karla";
+    color: gray;
+    margin-top: 30px;
+}
+.count4_text3{
+    font-size: 12px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-top: 30px;
+}
+/*Cont5*/
+.container5{
+    max-width: 95%;
+    margin: auto;
+    height: 327px;
+    background-color: #050827;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.container5 div{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.cont5_text1{
+    font-size: 12px;
+    font-family: "Karla";
+    color: white;
+}
+.cont5_text2{
+    font-size: 36px;
+    font-family: "Karla";
+    color: white;
+}
+.input5 input{
+    width: 350px;
+    height: 54px;
+    background: none;
+    border-color: azure;
+    border-width: 2px;
+    color: white;
+    border-width: 1px;
+    font-size: 14px;
+    font-family: "Karla Mid";
+    text-align: center;
+}
+.input5 button{
+    width: 129px;
+    height: 54px;
+    font-size: 14px;
+    font-family: "Karla Mid";
+    color: #000000;
+    background-color: white;
+    border-style: none;
+}
+.input5 div{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.button2:hover{
+cursor: pointer;
+background-color: gainsboro;
+}
+
+/*Footer*/
+
+.footer_main{
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.column_text1{
+    font-size: 14px;
+    font-family: "Karla";
+    color: gray;
+}
+.column_mtext{
+    font-size: 15px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-bottom: 30px;
+}
+.foot_column2 li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.foot_column2 a{
+    text-decoration: none;
+    color: #1D1F2E;
+    font-family: "Karla";
+    width: 146.66px;
+    font-size: 14px;
+    font-family: "Karla";
+    color: gray;
+}
+.foot_column3{
+    margin-right: 250px;
+}
+.cloumn_text2{
+    font-size: 14px;
+    font-family: "Karla";
+    color: lightgray;
+    margin-top: 78px;
+}
+.cloumn_text22{
+    font-size: 14px;
+    font-family: "Karla";
+    color: lightgray;
+    margin-top: 50px;
+}
+.column_email{
+    font-size: 23px;
+    font-family: "Karla";
+    color: #1D1F2E;
+    margin-top: 20px;
+}
+.foot_column1 img{
+    margin-bottom: 30px;
+}
